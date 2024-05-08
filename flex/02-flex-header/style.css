@@ -1,4 +1,8 @@
 .header  {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-family: monospace;
   background: papayawhip;
 }
@@ -9,6 +13,18 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+}
+
+.left-links ul {
+  padding: 0;
+  gap: 10px;
+  display: flex;
+}
+
+.right-links ul {
+  padding: 0;
+  gap: 10px;
+  display: flex;
 }
 
 ul {
