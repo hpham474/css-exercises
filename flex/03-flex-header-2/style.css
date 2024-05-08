@@ -20,11 +20,7 @@ body {
 
 .header-sides {
   display: flex;
-  gap: 16px;
-}
-
-.right-side {
-  display: flex;
+  align-items: center;
   gap: 16px;
 }
 
